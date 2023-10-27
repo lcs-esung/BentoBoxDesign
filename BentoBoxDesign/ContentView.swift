@@ -10,12 +10,17 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "arrowshape.turn.up.backward.2")
-                .resizable()
-                .scaledToFit()
+            HStack {
+                Image(systemName: "arrowshape.turn.up.backward.2")
+                    .resizable()
+                    .scaledToFit()
                 .frame(width: 130)
-              Text("Hello, world!")
+                
+                
+        
+            }
         }
+        .frame(width: 800, height: 400)
         .padding()
     }
 }
