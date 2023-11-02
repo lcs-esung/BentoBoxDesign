@@ -43,7 +43,6 @@ struct ContentView: View {
             saturation: 0.65,
             brightness: 0.50
         )
- 
         let darkdarkGray = Color(
             hue: 0/360.0,
             saturation: 0.0,
@@ -399,6 +398,7 @@ struct ContentView: View {
           
             }
         }
+    
         
     }
 
